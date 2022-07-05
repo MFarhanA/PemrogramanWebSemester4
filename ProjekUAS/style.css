@@ -1,0 +1,428 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.contentwrapper{
+  min-height: 100%;
+  margin-bottom: -142px;
+}
+
+.contentwrapper:after {
+  content: "";
+  display: block;
+  height: 142px;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  left: 0px;
+  top: 0px;
+
+  background: #0C0C0C;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  left: 0px;
+  top: 1120px;
+
+  background: #0C0C0C;
+}
+
+.titlename {
+  position: fixed;
+  width: 332px;
+  height: 80px;
+  left: 14px;
+  top: 10px;
+
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 59px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #56024E;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.horizontalnav {
+  text-align: right;
+}
+
+.home{
+  position: fixed;
+  width: 89px;
+  height: 53px;
+  left: 389px;
+  top: 24px;
+
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 53px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.endangered {
+  position: fixed;
+  width: 221px;
+  height: 53px;
+  left: 521px;
+  top: 24px;
+
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 53px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.ghost {
+  position: fixed;
+  width: 111px;
+  height: 53px;
+  left: 785px;
+  top: 24px;
+
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 53px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.aboutus {
+  position: fixed;
+  width: 195px;
+  height: 53px;
+  left: 939px;
+  top: 24px;
+
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 53px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+#whitebar {
+  color: #FFFFFF;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 150ms;
+}
+
+#whitebar:hover {
+  border-bottom: 1px solid #FFFFFF;
+}
+
+.backgroundimage{
+  position: fixed;
+  width: 100%;
+  height: 1020px;
+  left: 0px;
+  top: 100px;
+}
+
+.borderbox {
+  position: absolute;
+  width: 82%;
+  height: 1020px;
+  left: 9%;
+  top: 100px;
+
+  background: #0B0038;
+}
+
+.actualbox {
+  position: absolute;
+  width: 82%;
+  height: 920px;
+  left: 9%;
+  top: 150px;
+
+  background: #010022;
+}
+
+.loginbox {
+  position: absolute;
+  width: 41%;
+  height: 460px;
+  left: 9%;
+  top: 150px;
+
+  background: #FFFFFF;
+}
+
+#welcomeparagraph {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 41px;
+  text-align: center;
+  border-bottom: 1px solid #FFFFFF;
+
+  color: #FFFFFF;
+}
+
+#descriptionparagraph {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 41px;
+  text-align: center;
+  border-bottom: 1px solid #FFFFFF;
+
+  color: #FFFFFF;
+}
+
+#pagelogo {
+
+}
+
+#endangeredlogo {
+  margin-top: 3.3%;
+  margin-left: auto;
+  padding-left: 10%;
+
+  transition: opacity 150ms;
+}
+
+#endangeredlogo:hover {
+  opacity: 0.3;
+}
+
+#ghostlogo {
+  margin-right: auto;
+  padding-right: 10%;
+
+  transition: opacity 150ms;
+}
+
+#ghostlogo:hover {
+  opacity: 0.3;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#staffposition {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 41px;
+  text-align: center;
+  border-bottom: 1px solid #FFFFFF;
+
+  color: #FFFFFF;
+}
+
+#staffmember {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 41px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+#stafflist {
+  list-style-type: none;
+}
+
+#endangeredwiki {
+  margin: 0;
+  padding: 0;
+
+  margin-left: 1%;
+  font-family: Space Mono;
+  font-weight: bold;
+  font-size: 35px;
+
+  color: #56024E;
+}
+
+#endangeredtitle {
+  margin-top: 3%;
+  margin-left: 1%;
+  margin-right: 40%;
+  font-family: Space Mono;
+  font-weight: bold;
+  border-bottom: 1px solid #FFFFFF;
+
+  color: #FFFFFF;
+}
+
+#rightboxthingy {
+  position: absolute;
+  width: 38%;
+  height: 580px;
+  left: 61%;
+  top: 1.5%;
+  border: 1px solid #FFFFFF;
+
+  background: #0B0038;
+}
+
+#endangeredpicture {
+  margin-top: 2%;
+}
+
+#rightboxtitle {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 1px solid #FFFFFF;
+
+  color: #FFFFFF;
+}
+
+#endangeredinfo {
+  margin-top: 2%;
+  font-family: Space Mono;
+  font-style: normal;
+  border-top: 1px solid #FFFFFF;
+
+  color: #FFFFFF;
+}
+
+#endangeredinfoleft {
+  margin-left: 2%;
+  float: left;
+  font-weight: bold;
+}
+
+#endangeredinforight {
+  float: right;
+  margin-right: 10%
+}
+
+#endangeredintro {
+  margin-top: 2.5%;
+  margin-left: 1%;
+  margin-right: 40%;
+  font-family: Space Mono;
+  text-align: justify;
+
+  color: #FFFFFF;
+}
+
+.defaultlink {
+  color: blue;
+  text-decoration: inherit;
+}
+
+#endangereddescriptiontitle {
+  margin-top: 5%;
+  margin-left: 1%;
+  margin-right: 1%;
+  font-family: Space Mono;
+  font-weight: bold;
+  border-bottom: 1px solid #FFFFFF;
+
+  color: #FFFFFF;
+}
+
+#endangereddescription {
+  margin-left: 1%;
+  margin-right: 36%;
+  font-family: Space Mono;
+  text-align: justify;
+
+  color: #FFFFFF;
+}
+
+#endangeredimage {
+  margin-right: 1%;
+  margin-top: 2.5%;
+}
+
+#ghostdescription {
+  margin-left: 1%;
+  margin-right: 1%;
+  font-family: Space Mono;
+  text-align: justify;
+
+  color: #FFFFFF;
+}
+
+#ghostdescriptiontitle {
+  margin-top: 26%;
+  margin-left: 1%;
+  margin-right: 1%;
+  font-family: Space Mono;
+  font-weight: bold;
+  border-bottom: 1px solid #FFFFFF;
+
+  color: #FFFFFF;
+}
